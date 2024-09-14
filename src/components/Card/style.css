@@ -1,0 +1,35 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 10px;
+    width: 225px;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countryCard {
+    padding: 0px;
+    height: 100px;
+    width: 100px;    
+}
+
+.countryCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-container  h4{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
