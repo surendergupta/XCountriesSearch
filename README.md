@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# XCountries Search Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -16,7 +16,7 @@ You may also see any lint errors in the console.
 
 ### `API_ENDPOINT`
 
-API_URL [ttps://xcountries-backend.azurewebsites.net/all](ttps://xcountries-backend.azurewebsites.net/all) to view it in your browser.
+API_URL [https://restcountries.com/v3.1/all](https://restcountries.com/v3.1/all) to view it in your browser.
 
 ### `npm install axios`
 
@@ -35,8 +35,9 @@ we use useCallback Hook for memorized the function for api request not repeat to
 - Card: To display flags and country name on Card that used many time
 - Home: To display card component multiple time and Home Page also
 - Api: To getCountries Data from API_ENDPOINTS
+- Search: search using debounce
 
 ### `Vercel App Deployment`
 
-Deployed Link: [https://xcountries-phi.vercel.app/](https://xcountries-phi.vercel.app/) to view it in your browser.
+Deployed Link: [https://x-countries-search-one-lovat.vercel.app/](https://x-countries-search-one-lovat.vercel.app/) to view it in your browser.
 
